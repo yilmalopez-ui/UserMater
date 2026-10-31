@@ -1,17 +1,44 @@
-# flutter_application_1
+# UserMater
 
-A new Flutter project.
+## Descripción
 
-## Getting Started
+Aplicación Flutter de ejemplo con flujo de registro, inicio de sesión y recuperación de contraseña. Después de iniciar sesión, permite consultar un dashboard con elementos recientes y ver el perfil del usuario.
 
-This project is a starting point for a Flutter application.
+## Objetivos
 
-A few resources to get you started if this is your first Flutter project:
+- Practicar la creación de interfaces con Flutter y Material Design.
+- Implementar formularios de registro, inicio de sesión y recuperación de contraseña.
+- Mostrar información de usuario en un dashboard y un perfil.
+- Permitir cerrar sesión y regresar a la pantalla de login.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Tech Stack
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Flutter**
+- **Dart**
+- **Material Design**
+- **flutter_test** para pruebas de widgets
+
+## Estructura del proyecto
+
+```text
+lib/
+├── main.dart
+└── Presentation/
+    └── pages/
+        ├── auth_store.dart
+        ├── auth_widgets.dart
+        ├── dashboard_page.dart
+        ├── login.dart
+        ├── profile_page.dart
+        ├── recuperar_contrasena.dart
+        ├── registrar.dart
+        └── splash.dart
+test/
+└── widget_test.dart
+```
+
+Los recursos visuales se encuentran en la raíz del proyecto y en `aseets/`.
+
+## Autor
+
+Yilma López
