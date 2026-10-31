@@ -41,4 +41,4 @@ Los recursos visuales se encuentran en la raíz del proyecto y en `aseets/`.
 
 ## Autor
 
-Yilma López
+Yilma Emis López Tapias
